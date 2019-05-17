@@ -1,9 +1,9 @@
 resource "aws_s3_bucket" "b" {
-  bucket = "${var.project}-${var.nomeGrupo}-${var.env}"
+  bucket = "18cld-teste-prod"
   acl    = "private"
 
   tags = {
-    Name        = "${var.project}-${var.nomeGrupo}-${var.env}"
-    Environment = "${var.env}"
+    Name        = "18cld-teste-prod"
+    Environment = "admin"
   }
 }
