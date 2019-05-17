@@ -1,35 +1,7 @@
-# terraform-workspace
 
-Understanding how workspaces work in terraform, and how to isolate `dev`, `test`, `stage` and `prod` environment with it.
-
-## Create
-
-```bash
-# Creates a dev workspace
-$ terraform workspace new dev
-
-# Creates a prod workspace
-$ terraform workspace new prod
-```
-
-## Switch
-
-```bash
-# Select the dev workspace
-$ terraform workspace select dev
-
-# Select the prod workspace
-$ terraform workspace select prod
-```
-
-## List
-
-```bash
-$ terraform workspace list
-```
-
-## Show
-
-```bash
-$ terraform workspace show
-```
+1. Execute o comando `terraform init` para inicializar o terraform
+2. Crie um novo workspace com o comando `terraform workspace new dev`
+3. Crie outro workspace com o comando `terraform workspace new prod`
+4. Para voltar ao ambiente dev execute `terraform workspace select dev`
+5. Para listar todos os workspaces execute `terraform workspace list`
+6. Rode o apply com cada um dos ambiente e note que serão gerados arquivos diferentes para cada workspaces dentro da pasta 'modules'.
