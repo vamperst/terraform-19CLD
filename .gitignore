@@ -3,3 +3,4 @@
 *.terraform/
 codigosTeste/*
 codigosTeste/
+*.DS_Store*

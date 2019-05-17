@@ -21,12 +21,3 @@ variable "PATH_TO_KEY" {
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
 }
-
-variable "vpc_id" {
-  default = "vpc-0518491bf3acf3036"
-}
-
-variable "subnet_id" {
-  default = "subnet-03b88ae6869fa2f93"
-}
-
