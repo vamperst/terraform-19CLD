@@ -33,12 +33,12 @@ aws_secret_access_key = SUA Secret access key
 19. Execute os comandos abaixo para resolver as dependencias para ler as pastas do host 
 ```shell
     sudo apt-get update -y
-    sudo apt-get install build-essentiallinux-headers-`uname -r` -y
+    sudo apt-get install build-essential linux-headers-`uname -r` -y
 ```
 20. Reinicie a VM com o comando `sudo shutdown -r now`
 21. Faça o login novamente após o boot
 22. Cria a pasta onde será realizado o pareamento `mkdir cld-fiap`
-23. sudo mount -t vboxsf credentialsFiap ~/clf-fiap
+23. Para montar a pasta na VM execute o comando `sudo mount -t vboxsf credentialsFiap ~/clf-fiap`
 24. Se der um comando `ls cld-fiap` verá que consegue ver os arquivos do seu host
     ![mount](images/mount.png)
 25. Rode o comando `mkdir ~/.aws` para criar o local onde deve ficar o credentials
