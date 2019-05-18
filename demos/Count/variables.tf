@@ -16,7 +16,7 @@ variable "KEY_NAME" {
   default = "fiap-18cld"
 }
 variable "PATH_TO_KEY" {
-  default = "/Users/rafaelbarbosa/.ssh/fiap-18cld.pem"
+  default = "/home/vagrant/.ssh/fiap-18cld.pem"
 }
 variable "INSTANCE_USERNAME" {
   default = "ubuntu"
