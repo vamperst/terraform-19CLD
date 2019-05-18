@@ -8,4 +8,11 @@ Utilize o código da demo Count e faça as seguintes mudanças:
 4. Os nomes das maquinas devem ser de acordo com o ambiente do workspace. Ex: nginx-workspace-002
 5. Crie um ambiente de prod e um deve
 6. Faça um zip dos arquivos desse exercicio e submeta no portal da fiap.
+
+
+#### Ajuda
+[How to create modules]([https://link](https://blog.gruntwork.io/how-to-create-reusable-infrastructure-with-terraform-modules-25526d65f73d))
+[Modules Composition]([https://link](https://www.terraform.io/docs/modules/composition.html))
+[Creating Modules](https://www.terraform.io/docs/modules/index.html)
+[AWS datasources](https://www.terraform.io/docs/providers/aws/d/instances.html)
    
